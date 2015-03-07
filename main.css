@@ -1,8 +1,18 @@
+/*.row1 {
+ position:absolute;
+ top:70px;
+
+}*/
+
+.container-fluid {
+  background-color: #BDC4A7;
+  padding-top: 70px;
+}
 
 
 h1 {
-  color: darkblue ;
-  background-color: ;
+  color: red ;
+  background-color: cyan;
   font-size: 25px;
 }
 
@@ -14,9 +24,9 @@ p {
 
 li{
 
-  float: left;
+  float: center;
   display: block;
-  margin: 20px;
+  margin: 10px;
 }
 
 li a {
@@ -28,6 +38,7 @@ li a {
 
 a:hover {
     color: red;
+    text-decoration: none;
 }
 
 ul {
@@ -36,4 +47,7 @@ ul {
   display: block;
 }
 
+.navbar {
+    position: sticky;
+    top: 20px;
 }

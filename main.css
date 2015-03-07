@@ -1,0 +1,39 @@
+
+
+h1 {
+  color: darkblue ;
+  background-color: ;
+  font-size: 25px;
+}
+
+p {
+  font-family: helvetica;
+  font-weight: ;
+  text-align: ;
+}
+
+li{
+
+  float: left;
+  display: block;
+  margin: 20px;
+}
+
+li a {
+  text-decoration: none;
+  font-family: helvetica;
+  color: grey;
+
+}
+
+a:hover {
+    color: red;
+}
+
+ul {
+
+  width: 100%;
+  display: block;
+}
+
+}

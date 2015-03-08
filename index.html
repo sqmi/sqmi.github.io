@@ -1,204 +1,123 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="./main.css">
-  <!--<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />-->
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <!-- <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script> -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-</head>
-<body>
+    <title>WINE am - Exclusive wine, same day, no worries... Get in!</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="sticky-footer-navbar.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img src="./img/WineAMgif.gif" height="30">
+            </a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Today's Wine</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Join</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">My Account<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Wines</a></li>
+                <li><a href="#">Contact</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Affiliates</li>
+                <li><a href="#">SHARE THE LOVE!</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <!-- Begin page content -->
+    <div class="container">
+      <div class="page-header">
+        <h2>Vin de Manies Napa Cabernet 2005</h2>
+      </div>
+
+      <!--div class="col-xs-12 col-md-6"-->
+
+      <div class="row-img">
+        <div class="col-xs-12 col-md-6">
+              <div class "container-center">
+              <a href = "http://www.google.com">
+                <img src="./img/pirate.png" position=center alt="Today's WineAM Bargain"></a>
+                <p><a href="../buy">| WANT IT </a> <a href="../share">| SHARE IT |</a> <a href="../hate"> PASS :( |</a> </p>
+            </div>
+        </div>
 
 
+        <div class="col-xs-12 col-md-6">
 
- <div class = "container-fluid">
-   <div>
-     <p><i>"Bring me the finest wines availabe to humanity"</i></p>
-   </div>
-   <nav class="navbar navbar-default ">
-
-               <!-- Hamburger Menu -->
-               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#fac-example-navbar-collapse-1">
-
-               <!-- The spans are styled to look like a Hamburger Menu -->
-                   <span class="sr-only">Toggle navigation</span>
-                   <span class="icon-bar"></span>
-                   <span class="icon-bar"></span>
-                   <span class="icon-bar"></span>
-
-               </button>
-               <a class="navbar-brand" href="./index.html">
-                 <img src="./img/pirate.png" height="30">
-               </a>
-
-               <!--!WHY DOESN'T THIS WORK?? -->
-
-           <!-- /.navbar-header -->
-
-           <div class="container">
-             <div class="collapse navbar-collapse" id="fac-example-navbar-collapse-1">
-                  <ul class="nav navbar-nav">
-                <li>
-                       <a href="#">
-                           Today's Wine
-                       </a>
-                     </li>
-                   <li>
-                       <a href="#">
-                           About
-                       </a>
-                   </li>
-                   <li>
-                       <a href="#">
-                           Join
-                       </a>
-                   </li>
-
-                 </ul>
-               </div> <!-- /.navbar-collapse -->
+              <p class="lead">Opus One's former cellar rat puts 20+ years of Napa winemaking knowledge into this exceptional Cab. A true Napa Gem at a price you will not believe!
+                </p>
+              </div>
             </div>
 
-       </nav>
 
 
- <div class = "row1">
-
-  <!-- <h1> Going Mobile...</h1> -->
-
-  <!--<h2> Graphic Designer</h2 -->
-
-</div>
-
-        <!--div class="col-xs-12 col-md-8"-->
-
-<div class="row">
-  <div class="col-xs-12 col-sm-6 col-md-3">
-    <ul>
-      <li>
-        <a href = "http://www.google.com">
-          <img src="./img/back.png"></a>
-      </li>
-      <ul>
+     </div>
   </div>
 
 
-  <div class="col-xs-12 col-sm-6 col-md-3">
-    <ul>
-      <li>
-        <a href = "http://www.bbc.co.uk">
-          <img src="./img/pirate.png"></a>
-        </li>
-    </ul>
-  </div>
-
-
-  <div class="col-xs-12 col-sm-6 col-md-3">
-    <ul>
-      <li>
-        <a href = "http://www.facebook.com">
-          <img src="./img/back.png"></a>
-        </li>
-    </ul>
-  </div>
-
-
-  <div class="col-xs-12 col-sm-6 col-md-3">
-    <ul>
-      <li>
-        <a href = "http://www.moz.com">
-          <img src="./img/pirate.png"></a>
-        </li>
-    </ul>
-  </div>
-
-</div>
-
-
-
-  <!-- Stack the columns on mobile by making one full-width and the other half-width -->
-   <div class = "row">
-     <div class="col-xs-12">
-     <p> I'm a not experienced graphic print designer... as you can see! </p>
-    </div>
-   </div>
-
-   <div class= "row">
-    <div class = "container">
-
-      <div class="col-xs-12 col-sm-8 col-md-6" >
-
-       <img src="./img/WineAM.jpg" width = "85%" alt="Today's Wine is ...">
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">
+        <img src="./img/am-footer-small.png" width=100%</p>
       </div>
-    <div>
-   </div>
+    </footer>
 
 
-   <div class = "row">
-     <div class="col-xs-12 col-sm-6">
-       <img src="http://www2.shutterstock.com/webstack/img/lohp/carousel/Vectors/shutterstock_231902518.jpg" width = "200" alt="Tiger">
-     </div>
-     <div class="col-xs-12 col-sm-6">
-       <a href = "http://www.bbc.co.uk"></a><img src="http://image.shutterstock.com/display_pic_with_logo/164782/188478623/stock-vector-vector-urban-concept-in-flat-style-skyscrapers-and-modern-tall-buildings-city-illustration-188478623.jpg" height = "200" alt="Tiger">
-     </div>
-   </div>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
 
   </div>
 

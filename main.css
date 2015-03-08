@@ -1,9 +1,27 @@
 
+.row-img {
+  margin-left: auto:
+  margin-right: auto;
+}
+
+.container-center {
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*
 
 .container-fluid {
   background-color: #F0FFF1;
   padding-top: 10px;
   text-align: center;
+}
+
+.navbar navbar-default {
+  background-color: white;
+  border-color: #673C60;
+
 }
 
 
